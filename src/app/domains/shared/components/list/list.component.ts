@@ -26,7 +26,7 @@ export class ListComponent {
           const personaje: Personaje = {
             id: personajes[i].id,
             name: personajes[i].name,
-            altenarte_names: [personajes[i].altenarte_names],
+            altenarte_names: personajes[i].alternate_names,
             gender: personajes[i].gender,
             house: personajes[i].house,
             image: personajes[i].image

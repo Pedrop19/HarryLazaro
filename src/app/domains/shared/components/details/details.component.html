@@ -4,7 +4,7 @@
         <img [src]="personaje.image"/>
         <h1 class="text-5xl font-bold" [innerHTML]="personaje.name"></h1>
         @for(names of personaje.altenarte_names; track $index){
-            
+            <p class="py-6" [innerHTML]="names"></p>
         }
         <p class="py-6" [innerHTML]="personaje.house"></p>
         <p class="py-6" [innerHTML]="personaje.gender"></p>
