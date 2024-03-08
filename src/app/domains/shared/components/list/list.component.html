@@ -1,0 +1,5 @@
+<div class="grid grid-cols-4 gap-8 w-full p-3">
+    @for (personaje of listadoPersonajes; track $index) {
+        <app-personaje-card [personaje]="personaje"></app-personaje-card>
+    }
+</div>

@@ -1,0 +1,11 @@
+<div class="card w-96 bg-base-300 shadow-xl min-h-full hover:shadow-white hover:scale-105 transition-all duration-1000">
+    <figure class="px-10 pt-10">
+      <img [src]="personaje.image" alt="Shoes" class="rounded-xl" />
+    </figure>
+    <div class="card-body items-center text-center">
+      <h2 class="card-title" [innerText]="personaje.name"></h2>
+      <div class="card-actions">
+        <button class="btn btn-primary" (click)="mandarPersonaje(personaje)">Detalles</button>
+      </div>
+    </div>
+</div>
